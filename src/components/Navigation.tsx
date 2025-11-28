@@ -51,6 +51,15 @@ const Navigation = () => {
               <BookText className="h-4 w-4" />
               <span className="hidden sm:inline">Stories</span>
             </NavLink>
+
+            <NavLink
+              to="/flashcards"
+              className="flex items-center gap-1 sm:gap-2 px-2 sm:px-4 py-2 rounded-lg text-foreground hover:bg-accent transition-all duration-300 text-sm"
+              activeClassName="bg-primary text-primary-foreground hover:bg-primary-light"
+            >
+              <BookOpen className="h-4 w-4" />
+              <span className="hidden sm:inline">Flashcards</span>
+            </NavLink>
           </div>
         </div>
       </div>
