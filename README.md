@@ -1,73 +1,102 @@
-# Welcome to your Lovable project
+# 🎌 Kana Master — Aplikasi Pembelajaran Hiragana, Katakana, dan Kosakata Jepang
 
-## Project info
+> Selamat datang di Kana Master, sebuah aplikasi web interaktif untuk belajar **Hiragana**, **Katakana**, **Kanji dasar**, dan **Flashcard kosakata Jepang**.
+>
+> Project ini dibuat menggunakan **React + TypeScript + Vite**, serta **TailwindCSS** & **shadcn-ui** untuk tampilan UI yang modern dan bersih.
 
-**URL**: https://lovable.dev/projects/dc684cfa-82a4-4cdb-bc03-da32252a8af3
+---
 
-## How can I edit this code?
+## 🇮🇩 README (Bahasa Indonesia)
 
-There are several ways of editing your application.
+### 🚀 Fitur Utama
 
-**Use Lovable**
+* **✓ Belajar Hiragana**
+    * Menampilkan seluruh karakter hiragana dalam grid interaktif.
+* **✓ Belajar Katakana**
+    * Desain yang sama seperti hiragana namun untuk set katakana lengkap.
+* **✓ Belajar Kanji Dasar**
+    * Menampilkan beberapa Kanji pemula beserta romaji-nya.
+* **✓ Flashcard Mode**
+    * Tampilan kartu interaktif.
+    * Bisa *flip* untuk menunjukkan romaji.
+    * Navigasi *next/prev*.
+    * Mencakup **>500 kosakata** pemula.
+* **✓ Navbar Modern**
+    * Selalu tampil di semua halaman (Hiragana / Katakana / Kanji / Stories / Flashcards).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dc684cfa-82a4-4cdb-bc03-da32252a8af3) and start prompting.
+### 🛠️ Teknologi yang Digunakan
 
-Changes made via Lovable will be committed automatically to this repo.
+* React + TypeScript
+* Vite
+* shadcn-ui
+* TailwindCSS
+* Lucide Icons
 
-**Use your preferred IDE**
+### 📦 Cara Menjalankan Project (Local)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Pastikan kamu sudah punya **Node.js** & **npm**.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```
+1. Clone repository
+git clone <YOUR_REPO_URL>
 
-Follow these steps:
+2. Masuk folder project
+cd kana-master
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Jalankan dalam mode development
 npm run dev
+Project akan berjalan di: http://localhost:5173
 ```
 
-**Edit a file directly in GitHub**
+🌍 Custom Domain
+Bisa disambungkan melalui: Project → Settings → Domains → Connect Domain
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🇯🇵 README (日本語)
+### 🚀 主な機能
+* **✓ ひらがな学習**
+  * すべてのひらがなをグリッド形式で表示。
 
-**Use GitHub Codespaces**
+* **✓ カタカナ学習**
+  *ひらがなページと同じスタイルの完全版カタカナ。
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* **✓ 初級漢字**
+  *初心者向けの簡単な漢字と読み方を表示。
 
-## What technologies are used for this project?
+* **✓ フラッシュカードモード**
+  *カードをめくって読みを確認。
+  *次へ・前へボタン。
+  *500語以上の語彙。
 
-This project is built with:
+* **✓ ナビゲーションバー**
+  *すべてのページで常に表示（ひらがな・カタカナ・漢字・ストーリー・フラッシュカード）。
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 🛠️ 使用技術
+* React + TypeScript
+* Vite
+* shadcn-ui
+* TailwindCSS
+* Lucide Icons
 
-## How can I deploy this project?
+### 📦 ローカルでの実行方法
+**Node.js** と **npm** をインストールしてください。
 
-Simply open [Lovable](https://lovable.dev/projects/dc684cfa-82a4-4cdb-bc03-da32252a8af3) and click on Share -> Publish.
+```
+1. リポジトリをクローン
+git clone <YOUR_REPO_URL>
 
-## Can I connect a custom domain to my Lovable project?
+2. プロジェクトフォルダへ移動
+cd kana-master
 
-Yes, you can!
+3. 依存関係をインストール
+npm install
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+4. 開発サーバーを起動
+npm run dev
+URL: http://localhost:5173
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+🌍 カスタムドメイン
+Project → Settings → Domains よりドメイン設定が可能です。
